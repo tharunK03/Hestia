@@ -4,7 +4,6 @@ import numpy as np
 
 app = Flask(__name__)
 
-# ✅ Load ML models and scaler
 rf_model = joblib.load('/Users/Hestia 2/RealEstate/untitled folder/random_forest_model.pkl')
 iso_forest = joblib.load('/Users/Hestia 2/RealEstate/untitled folder/isolation_forest_model.pkl')
 scaler = joblib.load('/Users/Hestia 2/RealEstate/untitled folder/scaler.pkl')
